@@ -3,7 +3,7 @@
       integer k,l,n
       logical light
       real*8 phi,muh,lambda,beta,dt,loss,attach,growth
-      real*8 S,I,V,params(4),inits(3)
+      real*8 I,V,params(4),inits(3)
       real*8 t,dSdt,dIdt,dVdt
       real*8 hnt(n),vnt(n),jotime(n)
       phi = exp(params(1))
